@@ -5,7 +5,7 @@ data "terraform_remote_state" "vpc" {
     organization = "SomeCloudDude"
 
     workspaces {
-      name = "scd/scd-tfe-vpc"
+      name = "scd-tfe-vpc"
   }
 }
 }
