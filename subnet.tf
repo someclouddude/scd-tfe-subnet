@@ -8,7 +8,7 @@ data "terraforom_remote_state" "vpc" {
       name = "scd/scd-tfe-vpc"
   }
 }
-
+}
 
 resource "aws_subnet" "test" {
   vpc_id = "${data.terraform_remote_state.vpc}"
