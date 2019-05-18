@@ -1,4 +1,4 @@
-data "terraforom_remote_state" "vpc" {
+data "terraform_remote_state" "vpc" {
   backend = "remote"
 
   config = {
