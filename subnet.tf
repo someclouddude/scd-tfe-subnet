@@ -12,5 +12,5 @@ data "terraforom_remote_state" "vpc" {
 
 resource "aws_subnet" "test" {
   vpc_id = "${data.terraform_remote_state.vpc}"
-  cidr_block = "10.51.3.0/25
+  cidr_block = "10.51.3.0/25"
 }
